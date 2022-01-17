@@ -26,11 +26,11 @@ export class AppComponent implements OnInit, OnDestroy {
   constructor(private http: HttpClient) { }
 
   ngOnInit() {
-    this.errorMessage = '';
     this.weatherData = false;
   }
 
   getWeatherByCity(city: string){
+    this.errorMessage = '';
     this.loading = true;
     this.weatherSub = this.http.get(`${this.baseUrl}${city}&appid=${env.API_KEY}&units=metric&lang=de`)
       .subscribe((response) => {
