@@ -1,5 +1,9 @@
 # WeatherApp
 
+This App is a very basic weather application which fetches the weather data from the OpenWeather API.
+
+To launch this project on your local environment you need an API-Key from the OpenWeather API.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
