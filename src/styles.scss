@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Open-Sans, sans-serif;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #222;
+  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+
+body * {
+  font-family: Open-Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Open-Sans, sans-serif; }
